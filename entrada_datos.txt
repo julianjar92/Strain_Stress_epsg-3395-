@@ -1,0 +1,22 @@
+%fichero de datos con formato SITE,Y-UTM-metros,X-UTM-metros,Altura-metros,Este,Norte,elevacion - filedatos
+C:/Users/JulianJar92/source/repos/Strain_Stress_epsg(3395)/VALLE.csv
+%nombre para ficheros salida (fecha) - nomfile
+VALLE_DEL_CAUCA
+%Dias de datos
+365
+%factor de paso a metros 1/pasoametros
+1000 mm
+%incluye desplazamientos horizontales y/o verticales (1 SI, 0 NO)
+1 1
+%factor de escala de velocidades horizontal / vertical - hscale vscale
+0 0
+%marco de datos - xmin xmax ymin ymax
+0 0 0 0 
+%posicion de la escala vectores, ejes de tensor - xescala yescala
+0 0
+%factor de escala ejes de elipse de deformacion - strainescala
+0
+%rango de valores en nStrain para stress/strain tramos
+0
+%fichero de puntos de mapa
+C:/Users/JulianJar92/source/repos/Strain_Stress_epsg(3395)/zona.csv
