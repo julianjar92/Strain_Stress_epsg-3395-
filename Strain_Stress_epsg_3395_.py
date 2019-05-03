@@ -13,8 +13,6 @@ import pyproj as pyproj
 
 prjMerc=pyproj.Proj("+init=EPSG:3395")
 
-
-
 f=open('C:/Users/JulianJar92/source/repos/Strain_Stress_epsg(3395)/entrada_datos.txt','r')
 s=f.readlines()
 f.close()
